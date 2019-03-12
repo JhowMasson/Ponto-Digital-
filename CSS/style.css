@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+font-family:'Arial Bold', sans-serif, helvetica, sans-serif;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 70px;
+  margin-left: 288px;
+  margin-right: 0;
+  font-size: 1.45em;
+}
+#logoarea img{
+  margin-left:80px;
+  margin-right: 0;
+  display: block;
+  width: 10%;
+  height: 100%;
+  margin-top: -30px;
+  background-size: cover;
+  max-width: 15%; 
+}
+div > ul {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+}
+#logar {
+  align-self: none;
+  margin-left: 490px;
+  font-size: 1.05em;
+  text-decoration: none;
+  list-style-type: none;
+}
+#trabalhador img {
+
+}
