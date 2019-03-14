@@ -1,9 +1,22 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body{
 font-family:'Arial Bold', sans-serif, helvetica, sans-serif;
+}
+
+#trabalhador{
+  background-image: url(../img/chupisco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: calc( 100vh - 250px );
+}
+#texto_banner{
+  background-color: (red, rgba(209, 219, 226, 0.459), blue, alpha)
 }
 nav > ul {
   display: flex;
@@ -14,23 +27,27 @@ nav > ul {
   margin-left: 288px;
   margin-right: 0;
   font-size: 1.45em;
+  font-weight: bold;
+  color: #00347f;
 }
 #logoarea img{
-  margin-left:80px;
+  margin-left:120px;
   margin-right: 0;
   display: block;
-  width: 10%;
+  width: 12%;
   height: 100%;
-  margin-top: -30px;
+  margin-top: -55px;
   background-size: cover;
-  max-width: 15%; 
+  max-width: 12%; 
 }
 div > ul {
-  margin-top: 6px;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   text-decoration: none;
+  background-color: #00347f;
+  padding: 5px;
+
 }
 #logar {
   align-self: none;
@@ -38,7 +55,44 @@ div > ul {
   font-size: 1.05em;
   text-decoration: none;
   list-style-type: none;
+  color: white;
 }
-#trabalhador img {
+a{
+  text-decoration: none;
 
+}
+#orasbolas > a {
+  color: white;
+}
+.batata{
+  color: white;  
+}
+nav a {
+  color: #00347f;
+  padding: 9px 5px;
+}
+nav a:hover{
+  color: #ffffff;
+  background-color: #00347f;
+}
+div a:hover {
+  color:white;
+  background-color: #f2a620;
+}
+div a {
+  padding: 4.2px 2.5px;
+}
+.retangulo{
+  display: flex;
+  width: 40em;
+  height: 20em;
+  margin-top: -33em;
+  background-color: rgba(255, 255, 255, 0.69);
+  margin-left: 3em;
+  
+}
+.texto_banner {
+  font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+  margin-top: 10em;
+  margin-left: 6em;
 }
