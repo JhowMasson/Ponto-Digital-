@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-font-family:'Arial Bold', sans-serif, helvetica, sans-serif;
+font-family:'Arial', sans-serif, helvetica, sans-serif;
 }
 
 #trabalhador{
@@ -14,9 +14,12 @@ font-family:'Arial Bold', sans-serif, helvetica, sans-serif;
   text-align: center;
   width: 100%;
   height: calc( 100vh - 250px );
+  display: flex;
+  margin-top: 1em;
 }
 #texto_banner{
-  background-color: (red, rgba(209, 219, 226, 0.459), blue, alpha)
+  background-color: (red, rgba(0, 0, 0, 0.1), blue, alpha);
+  margin-top: 10em;
 }
 nav > ul {
   display: flex;
@@ -75,24 +78,45 @@ nav a:hover{
   color: #ffffff;
   background-color: #00347f;
 }
-div a:hover {
+#coco a:hover {
   color:white;
   background-color: #f2a620;
 }
-div a {
+#coco a {
   padding: 4.2px 2.5px;
 }
-.retangulo{
+#retangulo{
+  padding: 1em;
   display: flex;
-  width: 40em;
-  height: 20em;
-  margin-top: -33em;
-  background-color: rgba(255, 255, 255, 0.69);
+  flex-direction: column; 
+  width: 41em;
+  height: 25em;
+  margin-top: 5em;
   margin-left: 3em;
-  
+  background-color: rgb(173, 173, 173, 0.70);
 }
-.texto_banner {
-  font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-  margin-top: 10em;
-  margin-left: 6em;
+#retangulo h2{
+  font-size: 2em;
+  color: #00347f;
+  text-align: center;
+  margin-top: 1.5em;
 }
+#retangulo h3 {
+  color: #00347f;
+  font-size: 1.7em;
+  margin-top: 1.2em;
+}
+#consultenos p:hover{
+  color: #00347f;
+  background-color: #f2a620; 
+}
+#consultenos p {
+  border-radius: 30px;
+  background-color: #00347f;
+  color: #ffffff;
+  padding: 1.0em 2em;
+  width: 31%;
+  display: inline-block;
+  margin-top: 1.9em;
+}
+
