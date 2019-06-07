@@ -6,7 +6,14 @@
 body{
 font-family:'Arial', sans-serif, helvetica, sans-serif;
 }
-
+/* #logoarea{
+  width: 100px;
+  height: 70px;
+} */
+#logo{
+  width: 100px;
+  height: 70px;
+}
 #trabalhador{
   background-image: url(../img/homeofficer.jpg);
   background-repeat: no-repeat;
@@ -32,16 +39,6 @@ nav > ul {
   font-size: 1.45em;
   font-weight: bold;
   color: #00347f;
-}
-#logoarea img{
-  margin-left:120px;
-  margin-right: 0;
-  display: block;
-  width: 15%;
-  height: 100%;
-  margin-top: -55px;
-  background-size: cover;
-  max-width: 15%; 
 }
 div > ul {
   display: flex;
@@ -187,6 +184,14 @@ h2{
   font-size: 3em;
   color: #f2a620;
 }
+
+
+
+/* PARTE DO PLANOS */
+
+
+
+
 #planos{
   background-color: #ffffff;
   justify-content: center;
@@ -241,13 +246,93 @@ h6{
   color: #f2a620;
   text-align: center;
   font-size: 4.5em;
-  margin-top: 75px;
+  margin-top: 65px;
 }
-#depoimentos{
+#depoimentos{ 
   margin-top: 10.5em;
 }
-#opinioes{
+.opinioes{
   background-color: #082c5e;
-  width: 250px;
-  height: 100px;
+  width: 500px;
+  height: 230px;
+  margin-bottom: 2em;
 }
+#divimaior{
+  display: flex;
+  flex-direction: column;
+}
+#divimaior2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+#divpai{
+  display: flex;
+  justify-content: space-around;
+}
+.imgusuario{
+  width: 100px;
+  height: 80px;
+}
+#divpai h3 {
+  font-size: 1em;
+  color: #f2a620;
+  display: contents;
+}
+#divpai p{
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+/* PARTE DO CADASTRO */
+
+
+#cadastro{
+  background-color: #082c5e;
+}
+#div-paizao{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  color: #f2a620;
+}
+#div-cadastro > form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#aviso-cadastro{
+  font-size: 32px;
+  text-align: center;
+}
+#div-cadastro{
+  display: flex;
+  flex-direction: column;
+  width: 31em;
+  font-size: 2em;
+}
+.imput-form{
+  height: 2em;
+}
+input[type="submit"]{
+  background-color: #f2a620;
+  color: #00347f;
+  border: 1px solid #f2a620;
+  margin: 20px 0;
+  height: 3em;
+  width: 12em;
+  font-size: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  background-color: black;
+  color: #f2a620;
+  /* border: 1px solid #00347f; */
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  margin: 18px 0 20px 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
+

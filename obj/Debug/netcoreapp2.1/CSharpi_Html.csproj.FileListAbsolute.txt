@@ -30,3 +30,4 @@ c:\Users\47451835855\Desktop\CSharpi_Html\obj\Debug\netcoreapp2.1\CSharpi_Html.V
 c:\Users\47451835855\Desktop\CSharpi_Html\obj\Debug\netcoreapp2.1\CSharpi_Html.dll
 c:\Users\47451835855\Desktop\CSharpi_Html\obj\Debug\netcoreapp2.1\CSharpi_Html.pdb
 C:\Users\47451835855\Desktop\CSharpi_Html\obj\Debug\netcoreapp2.1\CSharpi_Html.csproj.CopyComplete
+C:\Users\47451835855\Desktop\CSharpi_Html\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_HeaderNavBar.g.cshtml.cs
