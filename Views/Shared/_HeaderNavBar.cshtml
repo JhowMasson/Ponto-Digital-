@@ -6,11 +6,11 @@
 
     <nav>
         <ul>
-            <li><a href="index.html" id="menunavegacao"><img src="../img/logo.png" alt="logo Ponto Digital"></a></li>
-            <li><a class="hover" href="index.html#quemsomos">QUEM SOMOS</a></li>
-            <li><a class="hover" href="index.html#planos">PLANOS</a>
-            <li><a class="hover" href="index.html#depoimentos">DEPOIMENTOS</a></li>
-            <li><a class="hover" href="index.html#cadastro">CADASTRE-SE</a></li>
-            <li><a class="hover" href="index.html#faleconosco">FALE CONOSCO</a></li>
+            <li><a asp-controller="Home" asp-action="Index" id="menunavegacao"><img src="../img/logo.png" alt="logo Ponto Digital"></a></li>
+            <li><a class="hover" href='@Url.Action("Index", "Home")#quemsomos'>QUEM SOMOS</a></li>
+            <li><a class="hover" href='@Url.Action("Index", "Home")#planos'>PLANOS</a>
+            <li><a class="hover" href='@Url.Action("Index", "Home")#depoimentos'>DEPOIMENTOS</a></li>
+            <li><a class="hover" href='@Url.Action("Index", "Home")#cadastro'>CADASTRE-SE</a></li>
+            <li><a class="hover" href='@Url.Action("Index", "Home")#faleconosco'>FALE CONOSCO</a></li>
         </ul>
 </nav>

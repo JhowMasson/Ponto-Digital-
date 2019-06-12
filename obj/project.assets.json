@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\47451835855\\Desktop\\CSharpi_Html\\CSharpi_Html.csproj",
+      "projectUniqueName": "c:\\Users\\47451835855\\Desktop\\PontoDigital\\CSharpi_Html.csproj",
       "projectName": "CSharpi_Html",
-      "projectPath": "c:\\Users\\47451835855\\Desktop\\CSharpi_Html\\CSharpi_Html.csproj",
+      "projectPath": "c:\\Users\\47451835855\\Desktop\\PontoDigital\\CSharpi_Html.csproj",
       "packagesPath": "C:\\Users\\47451835855\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\47451835855\\Desktop\\CSharpi_Html\\obj\\",
+      "outputPath": "c:\\Users\\47451835855\\Desktop\\PontoDigital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
