@@ -1,0 +1,42 @@
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style-login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+    <header>
+ @{
+        Html.RenderPartial("_HeaderNavBar");
+   }
+    </header>
+
+
+
+    <section id="login">
+            <h2>LOGIN</h2>
+                <div id="login-pai">
+                <div id="div-login">
+                    <form action="Cliente/Login" method="POST">
+                    <label for="email">E-mail:</label>
+                    <input class="imput-form" type="email" name="email" placeholder="Ex: Insira aqui o seu email cadastrado">
+                        <br>
+                    <label for="senha">Senha:</label>
+                    <input class="imput-form" type="password" name="senha" placeholder="Ex: Insira aqui a sua senha cadastrada" maxlength="30" minlength="7" required>
+                    <br>
+                    <input type="submit" value="LOGAR">
+                       
+                </form>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+</body>

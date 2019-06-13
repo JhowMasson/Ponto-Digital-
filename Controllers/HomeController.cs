@@ -5,16 +5,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CSharpi_Html.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace CSharpi_Html.Controllers
 {
     public class HomeController : Controller
     {
+        private const string SESSION_EMAIL = "_EMAIL";
+        private const string SESSION_CLIENTE = "_CLIENTE";
+
         public IActionResult Index()
         {
+            ViewData["User"] = HttpContext.Session.GetString(SESSION_CLIENTE);
+            ViewData["NomeView"] = "Home";
             return View();
         }
-
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

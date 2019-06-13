@@ -4,6 +4,20 @@
         </hgroup>
     </div>
 
+        <div id="contatos">
+    <ul>
+        @if(string.IsNullOrEmpty(Login))
+            {
+            <li><a href='@Url.Action("Index","Home")#cadastro'>Cadastro</a></li>
+            <li><a href='@Url.Action("Index","Login")' id="Login">Login</a></li>
+            <li><a href='@Url.Action("Logout","Cliente")'>Logout</a></li>
+            }else{
+            }
+            <li class="speakforme">Tel: (11) 9191-9191</li>
+            <li class="speakforme">E-mail: contato@pontodigital.com.br</li>
+    </ul>
+        </div>
+
     <nav>
         <ul>
             <li><a asp-controller="Home" asp-action="Index" id="menunavegacao"><img src="../img/logo.png" alt="logo Ponto Digital"></a></li>
