@@ -71,6 +71,7 @@ a{
 nav a {
   color: #082c5d;
   padding: 9px 5px;
+  text-decoration: none;
 }
 nav .hover:hover{
   border-radius: 30px;
@@ -83,6 +84,9 @@ nav .hover:hover{
 }
 #contatos a {
   padding: 4.2px 2.5px;
+  text-decoration: none;
+  color: white;
+  /* background-color: #f2a620; */
 }
 #retangulo{
   padding: 1em;
@@ -395,3 +399,19 @@ input[type="submit"]:hover {
 
 
 /* ARRUMAR O RODAPÉ DO WEBSITE */
+
+
+
+
+
+
+
+
+/* CSS Sucesso */
+
+#main-sucesso{
+  height: 20em;
+}
+#h2-sucesso{
+  margin-top: 10em;
+}
